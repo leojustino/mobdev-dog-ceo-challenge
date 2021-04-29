@@ -24,7 +24,7 @@ export default function ImageList(props)
                 {
                     const breed = breeds[i]
 
-                    if (breed.images.length == 0)
+                    if (breed.images.length === 0)
                     {
                         const [breedName, subBreedName] = breed.name.split(' ')
                         const breedUrl = `https://dog.ceo/api/breed/${breedName}/images`

@@ -19,6 +19,7 @@
 import DogsPageIcon from "@material-ui/icons/Pets";
 // core components/views for Admin layout
 import DogsPage from "views/Dogs/Dogs.js";
+import Dogs2 from "views/Dogs2/Dogs2";
 
 const dashboardRoutes = [
     {
@@ -27,6 +28,14 @@ const dashboardRoutes = [
         rtlName: "لوحة القيادة",
         icon: DogsPageIcon,
         component: DogsPage,
+        layout: "/admin"
+    },
+    {
+        path: "/dogs2",
+        name: "Dog Search 2",
+        rtlName: "لوحة القيادة",
+        icon: DogsPageIcon,
+        component: Dogs2,
         layout: "/admin"
     },
 ];

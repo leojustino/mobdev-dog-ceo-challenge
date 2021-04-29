@@ -55,7 +55,7 @@ export default function BreedList(props)
             }
 
         setLoading(false)
-    }, [])
+    }, [props])
     const breedToComponent = breed => <BreedItem
         onSelectedBreedChanged={props.onSelectedBreedChanged}
         breed={breed}
